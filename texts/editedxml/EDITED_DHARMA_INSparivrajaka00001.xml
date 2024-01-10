@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Majhgawam Charter of Hastin, year 191</title>
+            <respStmt>
+               <resp>Original EpiDoc Encoding for Siddham</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion of encoding for DHARMA</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSparivrajaka00001</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit thttps://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh and Arlo Griffiths.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <altIdentifier type="siddham">
+                     <idno type="filename">IN00079</idno>
+                  </altIdentifier>
+                  <!-- argr: need to update EGD on rules for encoding such altIdentifiers and the values of @type or any other attribute to be used -->
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>
+The first punctuation sign is a double vertical, a regular pair of daṇḍas, unlike IN00078. 
+Fleet observes that the charter contains a very rare instance of Au (line 8).
+Two occurrences of ryā written with subscript y below r (lines 7 and 12).
+<!-- daba: The halanta m in line 10 is slightly reduced in size and simplified, and has a horizontal stroke above it. -->
+</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:argr" when="2024-01-11" status="draft">Manual revision for DHARMA compatibility</change>
+         <change who="part:axja" when="2021-07-06" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:daba" when="2020-08-04" status="draft">Initial import: harmonising file structure with DHARMA inscription template v02. Text and comments as inherited from the Siddham archive of January 2019, unless otherwise indicated (by a name and date in the comment).. Comments are offered "as is" and do not represent a thoroughly considered or researched opinion.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+		<body>
+			<div type="edition" xml:lang="san-Latn">
+				<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+					<ab><lb n="1"/>śrī<orig>r-mm</orig>ahārāja-hastinaḥ</ab>
+				</div>
+				<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p>
+<!-- argr shall we try to divide into more p's?  -->
+<pb n="1v"/><lb n="1"/>namo mahādevāya<g type="ddanda">.</g> svasty<supplied reason="subaudible">.</supplied> eka-navaty-uttare ’bda-<space type="binding-hole"/>śate gupta-nr̥pa-rājya-bhuktau śrīmati pravarddhamāna-<lb n="2"/>mahā-caittra-sam<choice><orig>b</orig><reg>v</reg></choice>atsare māgha-māsa-bahula-pa<space type="binding-hole"/>kṣa-tr̥tīyāyām<supplied reason="subaudible">.</supplied> 
+asyā<unclear>ṁ</unclear> sam<choice><orig>b</orig><reg>v</reg></choice>atsara-māsa-divasa-pūrvvā<lb n="3" break="no"/>yāṁ nr̥pati-parivrājaka-kulotpannena mahārāja-devāḍhya-pranaptrā mahārāja-śrī-prabhaṁjana-naptrā mahā<lb n="4" break="no"/>rāja-śrī-dāmodara-sutena go-sahasra-hasty-aśva-hiraṇyāneka-bhūmi-pradena guru-pitr̥-mātr̥-pūjā<lb n="5" break="no"/>-tatpareṇātyanta-deva-vrāhmaṇa-bhaktenāneka-samara-śata-vijayinā sva-vaṁśāmoda-kareṇa mahā<lb n="6" break="no"/>rāja-śrī-hastinā mahādev<choice><orig>i</orig><reg>ī</reg></choice>-devasukh<choice><orig>a</orig><reg>ā</reg></choice>-vijñaptyā vālugarttā nāma grāmaḥ pūrvvāghāṭa-pariccheda-ma<!-- 
+Fleet treats Mahādevideva as a name and translates "at the agreeable request of Mahâdêvidêva". But compare l8, for which Fleet translates "in order to erect the steps of a ladder leading to heaven, acceptable to Mahâdêvidêva," ignoring both the feminine and the fact that āropayati doesn't really mean "erect". It seems certain to me that we are dealing with a queen named Devasukhā here (rather than "a certain person named Mahâdêvidêva" [Fleet_1888:107]), and the composer of the charter felt that the proper forms in compound were °devi and °sukha. Finally, compare the almost identical phrasing in IN00081, l12, which Fleet himself translates as I would expect. 
+argr: we decide to normalize i/a to ī/ā — cf.  'caṭa-, -devasukhāṁ and mibhya below
+--><lb n="7" break="no"/>ryādayā sodraṅgaḥ soparikaro ’c<choice><sic>a</sic><corr>ā</corr></choice>ṭa-bhaṭa-prāveśyaḥ mātā-pittror ātmanaś ca puṇyābhivr̥ddhaye mahāde<lb n="8" break="no"/>v<choice><orig>i</orig><reg>ī</reg></choice>-devasukhāṁ ca svargga-sopāna-paṅktim āropayatā Aupamanyava-sagotrebhyaś chandoga-kauthuma<lb n="9" break="no"/>-sabrahmacāribhyo ’m<choice><sic>i</sic><corr>ī</corr></choice>bhy<choice><sic>a</sic><corr>o</corr></choice>
+brāhmaṇebhyaḥ govindasvāmi<g type="dash">.</g>-gomikasvāmi<space/>-devasvāmibhyaḥ 
+putra-pau<!-- 
+daba: Fleet prints gomikasvāmi as in cpd to devasvāmi and emends to add govindasvāmi to the beginning of this cpd, which is of course grammatically fine, but evidently the composer treated compounds more loosely, and there is a distinct space after gomikasvāmi, which must have been intended, just like the dash after the first name, to clearly demarcate the items in the list. 
+-->
+<lb n="10" break="no"/>trānvayopabhogyas tāmra-śāsanenāgrāhāro ’tisr̥ṣṭaḥ caura-varjjaM<!-- 
+daba: For cora-varjjam (also sic in l13 of IN00077) compare cora-daṇḍa-varjjam in l14 of the Khoh Plate of Jayanātha GE 177, so this means in pursuit of thieves. 
+argr: cauravarja <Epigr, o.S.>[cauravarjam] „with immunity from the police tax“; may really mean „without any right to inflict punishment on thieves and persons committing the crime of treason or to levy fines from them“. CII 3 (Index). [may also be connected with abhaṭapraveśa so as to indicate that the bhaṭas should not enter except for catching thieves and persons committing the crime of treason.]<Sircar 1966: 71 (s.v. cauravarjam)>
+-->
+</p>
+<p>tad asmat-kulotthair mmat-pāda<lb n="11" break="no"/>-piṇḍopajīvibhir vvā kālāntareṣv api na vyāghātaḥ karaṇīyaḥ<supplied reason="subaudible">.</supplied>
+Evam ājñ<choice><orig>ā</orig><reg>a</reg></choice>pte yo ’nyathā 
+<lb n="12"/>kuryāt tam ahaṁ dehāntara-gato ’pi mahatāvaddhyānena nirddaheyam</p>
+<p>uktaṁ ca bhagavatā parama<pb n="2r" break="no"/><lb n="13" break="no"/><supplied reason="lost">r</supplied>ṣ<supplied reason="lost">i</supplied>ṇā veda-vyāsena vyāsena||<!-- 
+The punctuation sign is again a double vertical (as all others transcribed as double daṇḍas). 
+--></p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">pūrvva-dattāṁ dvijātibhyo</l>
+<l n="b">yatnād rakṣa yudhiṣṭhira</l>
+<l n="c">mahī<supplied reason="omitted">ṁ</supplied> <lb n="14"/>mahimatāṁ śreṣṭha</l>
+<l n="d">dānāc chreyo nupālanaṁ|</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">vahubhir vvasudhā bhuktā</l>
+<l n="b">rājabhiḥ sagarādibhiḥ</l>
+<l n="c">ya<lb n="15" break="no"/>sya yasya yadā bhūmis</l>
+<l n="d">tasya tasya tadā phalaṁ<!-- 
+There was a dash at the end of the previous verse, but only a bit of space after this one. 
+--></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a">ṣaṣṭiṁ varṣa-sahasr<unclear>ā</unclear>ṇi</l>
+<l n="b">svargge modati bhūmidaḥ</l>
+<l n="c"><lb n="16"/>Ākṣeptā cānumantā ca</l>
+<l n="d">tāny eva narake vaseT<!-- 
+Again no punctuation, only a halanta character and a little space. 
+--><!-- 
+The halanta t seems to be full or almost full size, but with a line above. 
+--></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a">sva-dattāṁ para-dattām <sic>b</sic>ā</l>
+<l n="b">yo hareta vasundharāM</l><!-- 
+The halanta m is again simplified but almost full size, with a line above. 
+-->
+<l n="c"><lb n="17"/>sa viṣṭhāyāṁ <sic>kkri</sic>mir bhūtvā</l>
+<l n="d">pitr̥bhiḥ saha majjate<!-- 
+No punctuation, only a little space at the end of the verse. 
+--></l>
+</lg>
+<lg n="5" met="anuṣṭubh">
+<l n="a">apānīyeṣv araṇyeṣu</l>
+<l n="b">śuṣka-koṭara-vāsinaḥ</l>
+<l n="c"><lb n="18"/>kr̥ṣnāhayo bhijāyante</l>
+<l n="d">pūrvva-dāyaṁ haranti ye||</l>
+</lg>
+<p>likhitañ ca vakkrāmātya-pranaptr̥-naptrā<!-- 
+Fleet notes that pranaptr̥-naptrā should be understood as naptr̥-naptrā or pranaptr̥-putreṇa, otherwise there would be a missing generation. This is correct; also compare IN00078/29. 
+--><lb n="19"/>bhogika-naradatta-pranaptrā ravidatta-naptrā sūryadatta-puttreṇa mahā- sāndhiviggrahika<lb n="20" break="no"/>-vibhudatteneti<supplied reason="subaudible">.</supplied> mahāvalādhikr̥ta-nāgasi<sic>ṅ</sic>ho dūtakaḥ</p>
+<p>sambat <num value="191"><g type="numeral">100</g> <g type="numeral">90</g> 1</num><lb n="21"/>māgha di <num value="3">3</num></p>
+<pb n="2v"/>
+				</div>
+			</div>
+				<div type="apparatus">
+			<listApp>
+				<app loc="6">
+				<lem>vālugarttā</lem>
+				<rdg source="bib:Fleet1888_01">vālugartto</rdg>
+	<!-- add references to occurrences of garttā/garttikā elsewhere in the corpus-->
+<!-- argr: I think I see -garttā and we seem to have more cases where the form is explicitly feminine than those where is seems to be masc/ntr -->
+				</app>
+			</listApp>
+		</div>
+		<div type="translation">
+		</div>
+		<div type="commentary">
+		</div>
+		<div type="bibliography">
+			<p/>
+			<listBibl type="primary">
+<bibl n="F"><ptr target="bib:Fleet1888_01"/><citedRange unit="page">106-109</citedRange>
+<citedRange unit="item">23</citedRange></bibl>
+			</listBibl>
+			<listBibl type="secondary">
+				<bibl n="siglum"/>
+			</listBibl>
+		</div>
+		</body>
+	</text>
+</TEI>
