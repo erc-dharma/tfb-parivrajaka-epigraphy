@@ -79,19 +79,13 @@ Two occurrences of ryā written with subscript y below r (lines 7 and 12).
                         under the European Union's Horizon 2020 research and innovation programme (grant
                         agreement no 809994).</p>
          </projectDesc>
-         <schemaRef type="guide"
-                    key="EGDv01"
-                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
          <listPrefixDef>
-            <prefixDef ident="bib"
-                       matchPattern="([a-zA-Z0-9\-\_]+)"
-                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
                <p>Public URIs with the prefix bib to point to a Zotero Group Library named
                             ERC-DHARMA whose data are open to the public.</p>
             </prefixDef>
-            <prefixDef ident="part"
-                       matchPattern="([a-z]+)"
-                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
                <p>Internal URIs using the part prefix to point to person elements in the
                             <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
             </prefixDef>
@@ -113,19 +107,12 @@ Two occurrences of ryā written with subscript y below r (lines 7 and 12).
 <pb n="1r"/>
 <p>
 <!-- argr shall we try to divide into more p's?  -->
-<pb n="1v"/><lb n="1"/>namo mahādevāya<g type="ddanda">.</g> svasty<supplied reason="subaudible">.</supplied> eka-navaty-uttare ’bda-<space type="binding-hole"/>śate gupta-nr̥pa-rājya-bhuktau śrīmati pravarddhamāna-<lb 
-n="2"/>mahā-caittra-sam<choice><orig>b</orig><reg>v</reg></choice>atsare māgha-māsa-bahula-pa<space type="binding-hole"/>kṣa-tr̥tīyāyām<supplied reason="subaudible">.</supplied> 
-asyā<unclear>ṁ</unclear> sam<choice><orig>b</orig><reg>v</reg></choice>atsara-māsa-divasa-pūrvvā<lb 
-n="3" break="no"/>yāṁ nr̥pati-parivrājaka-kulotpannena mahārāja-devāḍhya-pranaptrā mahārāja-śrī-prabhaṁjana-naptrā mahā<lb 
-n="4" break="no"/>rāja-śrī-dāmodara-sutena go-sahasra-hasty-aśva-hiraṇyāneka-bhūmi-pradena guru-pitr̥-mātr̥-pūjā<lb 
-n="5" break="no"/>-tatpareṇātyanta-deva-vrāhmaṇa-bhaktenāneka-samara-śata-vijayinā sva-vaṁśāmoda-kareṇa mahā<lb 
-n="6" break="no"/>rāja-śrī-hastinā mahādev<choice><orig>i</orig><reg>ī</reg></choice>-devasukh<choice><orig>a</orig><reg>ā</reg></choice>-vijñaptyā vālugarttā nāma grāmaḥ pūrvvāghāṭa-pariccheda-ma<!-- 
+<pb n="1v"/><lb n="1"/>namo mahādevāya<g ref="sym:doubleBar" type="punctuation">.</g> svasty<supplied reason="subaudible">.</supplied> eka-navaty-uttare ’bda-<space type="binding-hole"/>śate gupta-nr̥pa-rājya-bhuktau śrīmati pravarddhamāna-<lb n="2"/>mahā-caittra-sam<choice><orig>b</orig><reg>v</reg></choice>atsare māgha-māsa-bahula-pa<space type="binding-hole"/>kṣa-tr̥tīyāyām<supplied reason="subaudible">.</supplied> 
+asyā<unclear>ṁ</unclear> sam<choice><orig>b</orig><reg>v</reg></choice>atsara-māsa-divasa-pūrvvā<lb n="3" break="no"/>yāṁ nr̥pati-parivrājaka-kulotpannena mahārāja-devāḍhya-pranaptrā mahārāja-śrī-prabhaṁjana-naptrā mahā<lb n="4" break="no"/>rāja-śrī-dāmodara-sutena go-sahasra-hasty-aśva-hiraṇyāneka-bhūmi-pradena guru-pitr̥-mātr̥-pūjā<lb n="5" break="no"/>-tatpareṇātyanta-deva-vrāhmaṇa-bhaktenāneka-samara-śata-vijayinā sva-vaṁśāmoda-kareṇa mahā<lb n="6" break="no"/>rāja-śrī-hastinā mahādev<choice><orig>i</orig><reg>ī</reg></choice>-devasukh<choice><orig>a</orig><reg>ā</reg></choice>-vijñaptyā vālugarttā nāma grāmaḥ pūrvvāghāṭa-pariccheda-ma<!-- 
 Fleet treats Mahādevideva as a name and translates "at the agreeable request of Mahâdêvidêva". But compare l8, for which Fleet translates "in order to erect the steps of a ladder leading to heaven, acceptable to Mahâdêvidêva," ignoring both the feminine and the fact that āropayati doesn't really mean "erect". It seems certain to me that we are dealing with a queen named Devasukhā here (rather than "a certain person named Mahâdêvidêva" [Fleet_1888:107]), and the composer of the charter felt that the proper forms in compound were °devi and °sukha. Finally, compare the almost identical phrasing in IN00081, l12, which Fleet himself translates as I would expect. 
 argr: we decide to normalize i/a to ī/ā — cf.  'caṭa-, -devasukhāṁ and mibhya below
---><lb n="7" break="no"/>ryādayā sodraṅgaḥ soparikaro ’c<choice><sic>a</sic><corr>ā</corr></choice>ṭa-bhaṭa-prāveśyaḥ mātā-pittror ātmanaś ca puṇyābhivr̥ddhaye mahāde<lb 
-n="8" break="no"/>v<choice><orig>i</orig><reg>ī</reg></choice>-devasukhāṁ ca svargga-sopāna-paṅktim āropayatā Aupamanyava-sagotrebhyaś chandoga-kauthuma<lb 
-n="9" break="no"/>-sabrahmacāribhyo ’m<choice><sic>i</sic><corr>ī</corr></choice>bhy<choice><sic>a</sic><corr>o</corr></choice>
-brāhmaṇebhyaḥ govindasvāmi<g type="dash">.</g>-gomikasvāmi<space/>-devasvāmibhyaḥ 
+--><lb n="7" break="no"/>ryādayā sodraṅgaḥ soparikaro ’c<choice><sic>a</sic><corr>ā</corr></choice>ṭa-bhaṭa-prāveśyaḥ mātā-pittror ātmanaś ca puṇyābhivr̥ddhaye mahāde<lb n="8" break="no"/>v<choice><orig>i</orig><reg>ī</reg></choice>-devasukhāṁ ca svargga-sopāna-paṅktim āropayatā Aupamanyava-sagotrebhyaś chandoga-kauthuma<lb n="9" break="no"/>-sabrahmacāribhyo ’m<choice><sic>i</sic><corr>ī</corr></choice>bhy<choice><sic>a</sic><corr>o</corr></choice>
+brāhmaṇebhyaḥ govindasvāmi<g ref="sym:dash" type="punctuation">.</g>-gomikasvāmi<space/>-devasvāmibhyaḥ 
 putra-pau<!-- 
 daba: Fleet prints gomikasvāmi as in cpd to devasvāmi and emends to add govindasvāmi to the beginning of this cpd, which is of course grammatically fine, but evidently the composer treated compounds more loosely, and there is a distinct space after gomikasvāmi, which must have been intended, just like the dash after the first name, to clearly demarcate the items in the list. 
 -->
@@ -134,12 +121,10 @@ daba: For cora-varjjam (also sic in l13 of IN00077) compare cora-daṇḍa-varjj
 argr: cauravarja <Epigr, o.S.>[cauravarjam] „with immunity from the police tax“; may really mean „without any right to inflict punishment on thieves and persons committing the crime of treason or to levy fines from them“. CII 3 (Index). [may also be connected with abhaṭapraveśa so as to indicate that the bhaṭas should not enter except for catching thieves and persons committing the crime of treason.]<Sircar 1966: 71 (s.v. cauravarjam)>
 -->
 </p>
-<p>tad asmat-kulotthair mmat-pāda<lb 
-n="11" break="no"/>-piṇḍopajīvibhir vvā kālāntareṣv api na vyāghātaḥ karaṇīyaḥ<supplied reason="subaudible">.</supplied>
+<p>tad asmat-kulotthair mmat-pāda<lb n="11" break="no"/>-piṇḍopajīvibhir vvā kālāntareṣv api na vyāghātaḥ karaṇīyaḥ<supplied reason="subaudible">.</supplied>
 Evam ājñ<choice><orig>ā</orig><reg>a</reg></choice>pte yo ’nyathā 
 <lb n="12"/>kuryāt tam ahaṁ dehāntara-gato ’pi mahatāvaddhyānena nirddaheyam</p>
-<p>uktaṁ ca bhagavatā parama<pb n="2r" break="no"/><lb 
-n="13" break="no"/><supplied reason="lost">r</supplied>ṣ<supplied reason="lost">i</supplied>ṇā veda-vyāsena vyāsena||<!-- 
+<p>uktaṁ ca bhagavatā parama<pb n="2r" break="no"/><lb n="13" break="no"/><supplied reason="lost">r</supplied>ṣ<supplied reason="lost">i</supplied>ṇā veda-vyāsena vyāsena||<!-- 
 The punctuation sign is again a double vertical (as all others transcribed as double daṇḍas). 
 --></p>
 <lg n="1" met="anuṣṭubh">
