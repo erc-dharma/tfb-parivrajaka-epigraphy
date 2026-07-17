@@ -10,14 +10,14 @@
          <titleStmt>
             <title>Majhgawam Charter of Hastin, year 191</title>
             <respStmt>
-               <resp>Original EpiDoc Encoding for Siddham</resp>
+               <resp key="contributor">Original EpiDoc Encoding for Siddham</resp>
                <persName ref="part:daba">
                   <forename>Dániel</forename>
                   <surname>Balogh</surname>
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Conversion of encoding for DHARMA</resp>
+               <resp key="contributor">Conversion of encoding for DHARMA</resp>
                <persName ref="part:daba">
                   <forename>Dániel</forename>
                   <surname>Balogh</surname>
@@ -28,7 +28,7 @@
             	</persName>
             </respStmt>
             <respStmt>
-               <resp>intellectual authorship of edition</resp>
+               <resp key="creator">intellectual authorship of edition</resp>
                <persName ref="part:daba">
                   <forename>Dániel</forename>
                   <surname>Balogh</surname>
